@@ -1,0 +1,27 @@
+
+      if (ring2.position=g1Dress){
+       score=score+10;
+    }
+
+     if (ring2.position.x=g2Ball){
+        score=score+10;
+     }
+
+     if (ring2.position.x=g3Aeroplane){
+        score=score+10;
+     }
+
+     if (ring2.position.x=g4Robot){
+        score=score+10;
+     }
+
+     if (ring2.position.x=g5Teddy){
+        score=score+10;
+     }
+
+    ring2.bounceOff(edge0);
+    ring2.bounceOff(edge1);
+    ring2.bounceOff(edge2);
+    ring2.bounceOff(edge3);
+
+      
